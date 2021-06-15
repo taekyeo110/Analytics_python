@@ -3,10 +3,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 config = {
-    'server': {
+    'mysql_server': {
         'host': os.getenv('DB_HOST'),
         'user': os.getenv('DB_USER'),
         'password': os.getenv('DB_PASSWORD'),
-        'database': os.getenv('DB_SCHEMA')
+        'database': os.getenv('DB_SCHEMA'),
+        'charset': 'utf8'
     }
 }

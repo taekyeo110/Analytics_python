@@ -38,3 +38,4 @@ pandas==1.2.0
 pytest_asyncio==0.14.0
 APScheduler==3.7.0
 jwt==1.1.0
+google==3.0.0
